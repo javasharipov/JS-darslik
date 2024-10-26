@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html9 lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+   <main class="max-w-9xl  h-10 mx-auto px-7 py-7 ">
+    <div style="background-image: url('../assets/bg.svg'); width: 100%; height: auto;">
+       <div class= "flex items-center justify-center max-2xl:flex-col">
+        <div>
+            <img  src="../assets/boy.svg" alt="">
+        </div>
+        <div  class="flex w-[1000px] h-[832px] bg-white mt-6 rounded-2xl flex-col font-extrabold px-5 " >
+            <h2 class="text-[#0C2236] text-9xl mt-60">JavaScript(JS)</h2>
+            <span class="text-[#FF5E3B] text-8xl mt-3">DATATYPES</span>
+            <div class="flex gap-3 mt-8 ">
+                <button class="w-16 h-16 rounded-full bg-[#FF5E3B] flex items-center justify-center duration-300 ease-in hover:bg-[#BABABA] cursor-pointer"><img src="../assets/leftarrow.svg" alt=""></button>
+                <button class="w-16 h-16 rounded-full bg-[#FF5E3B] flex items-center justify-center duration-300 ease-in hover:bg-[#BABABA] cursor-pointer"><img src="../assets/rightarrow.svg" alt=""></button>
+            </div>
+        </div>
+       </div>
+    </div>
+     <section>
+     <div class="flex  items-center justify-center  mt-20">
+        <div>
+            <h1 class="text-[#FF5E3B] text-6xl">Datatypes - ma’lumot turlari</h1>
+            <ul style="list-style:circle;" class="flex flex-col text-4xl ml-10 mt-8 gap-5">
+                <li>String</li>
+                <li>Number</li>
+                <li>Booleannull</li>
+                <li>null</li>
+                <li>undefined</li>
+                <li>BigInt</li>
+                <li>symbol</li>
+            </ul>
+        </div>
+        <div class="flex items-center justify-center">
+            <img  src="../assets/datatypes.svg" alt="">
+        </div>
+     </div>
+     </section>
+     <section class="mt-12">
+        <div class="flex flex-col ml-[13%] font-bold ">
+            <h2 class="text-[#FF5E3B] text-6xl mb-8">String va Number</h2>
+            <div class="flex">
+            <span class="text-[#1B1F26B8] text-4xl">Nega<strong class="text-[#FF5E3B] text-4xl">"6" + 3 = “63”</strong></span>
+            <span class="text-[#1B1F26B8] text-4xl">lekin <strong class="text-[#FF5E3B] text-4xl"> “6” - 3 = 3</strong></span>
+            </div>
+            <ul style="list-style: circle;" class="gap-20 my-[50px] ">
+                <li class="text-2xl font-bold text-[#1B1F26B8] mt-8">JavaScriptda + operatori raqamlar bilan ishlaganda qo'shadi, lekin agar operandlardan biri yoki ikkalasi ham string (matn) bo'lsa, + operatori ularni yonma-yon ravishda bir-biriga qo'shib qo'yadi (bu jarayon "string concatenation" deb ataladi).</li>
+                <li class="text-2xl font-bold text-[#1B1F26B8] mt-8">Farqli ravishda, -, *, / operatorlari faqat sonlar bilan ishlaydi. Agar operandlar string bo'lsa ham, JavaScript avtomatik ravishda ularni raqamlarga aylantiradi va keyin arifmetik amal bajaradi.</li>
+                <li class="text-2xl font-bold text-[#1B1F26B8]  mt-8 ">Agar matematik operatsiya yoki hisoblash jarayonida noto'g'ri yoki mantiqsiz natija chiqsa, JavaScript NaN qiymatini qaytaradi.</li>
+            </ul>
+            <div class="flex gap-40 items-center justify-center ">
+                <img src="../assets/example1.png" alt="">
+                <img src="../assets/exampel2.png" alt="">
+            </div>
+        </div>
+     </section>
+     <section>
+        <div class="flex flex-col ml-[12%] mt-40">
+            <h2 class="text-[#FF5E3B] text-6xl font-bold ">
+                null (bo'sh qiymat)
+            </h2>
+            <div class="flex text-4xl gap-4 my-9">
+                <span class="text-[#FF5E3B]">null</span>
+                <p> o’zgaruvchida hech qanday qiymat mavjud emasligini bildiradi.</p>
+            </div>
+            <img width="50%" src="../assets/example3.png" alt="">
+            <p class="text-2xl my-6 leading-loose">JavaScriptda typeof null qiymati "object" qaytaradi, bu typeof operatorining eski dasturiy ta'minotdagi texnik xatosi sifatida qabul qilingan. Bu xato hozirda ham mavjud bo'lsa-da, JavaScriptning hozirgi versiyalarida tuzatilmagan, chunki oldingi davrda yaratilgan eski loyihalarning kodlari o’zgarishi mumkin,</p>
+            <img  width="50%" src="../assets/example4.png" alt="">
+        </div>
+     </section>
+     <section>
+        <div class="flex flex-col my-20">
+            <h2 class="text-[#FF5E3B] text-6xl font-bold ml-[12%]">undefined (aniqlanmagan qiymat)</h2>
+            <div class="flex mt-10">
+                <p class="w-[50%] ml-[12%] text-3xl text-[ #1B1F26B8] leading-[80px]">Agar o'zgaruvchi e'lon qilingan bo'lsa, lekin unga hech qanday qiymat berilmagan bo'lsa, u undefined (aniqlanmagan) qiymatiga ega bo'ladi.</p>
+                <img src="../assets/example5.png" alt="">
+            </div>
+        </div>
+     </section>
+   </main>
+    
+</body>
+</html9
